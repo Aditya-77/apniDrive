@@ -128,7 +128,7 @@ function list(path){
     $.post(path,'{"password":"'+password+'"}', function(data,status){
         var obj = jQuery.parseJSON(data);
         if(typeof obj != 'null' && obj.hasOwnProperty('error') && obj.error.code == '401'){
-            var pass = prompt("Password to enter","");
+            var pass = prompt("Password:","");
             localStorage.setItem('password'+path, pass);
             if(pass != null && pass != ""){
                 list(path);
