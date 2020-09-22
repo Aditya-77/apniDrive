@@ -286,9 +286,11 @@ function file_code(path){
 function file_video(path){
 	var url = window.location.origin + path;
 	var content = `
+<div class="mdui-container-fluid">
      <div class="player">
      		<iframe class="player_iframe" src="https://drive.google.com/file/d/${id}/preview" webkitallowfullscreen mozallowfullscreen allowfullscreen></webview>
 	</div>
+</div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
 	$('#content').html(content);
