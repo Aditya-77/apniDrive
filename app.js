@@ -285,10 +285,19 @@ function file_code(path){
 // File display: Video |mp4|webm|avi|
 function file_video(path){
 	var url = window.location.origin + path;
+	
+	/**
+	<div class="mdui-container-fluid">
+		<div class="player">
+     		<iframe class="player_iframe" src="https://drive.google.com/file/d/${id}/preview" webkitallowfullscreen mozallowfullscreen allowfullscreen></webview>
+		</div>
+	</div>
+	**/
+	
 	var content = `
 <div class="mdui-container-fluid">
-     <div class="player">
-     		<iframe class="player_iframe" src="https://drive.google.com/file/d/${id}/preview" webkitallowfullscreen mozallowfullscreen allowfullscreen></webview>
+     <div class="mdui-video-fluid mdui-center">
+     		<iframe src="https://drive.google.com/file/d/${id}/preview" webkitallowfullscreen mozallowfullscreen allowfullscreen></webview>
 	</div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
