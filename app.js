@@ -285,7 +285,7 @@ function file_video(path){
 	var url = window.location.origin + path;
 	var content = `
      <div class="player">
-     		<iframe class="player_iframe" src="https://drive.google.com/file/d/${id}/preview&hl=fr&cc_lang_pref=fr&cc_load_policy=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></webview>
+     		<iframe class="player_iframe" src="https://drive.google.com/file/d/${id}/preview" webkitallowfullscreen mozallowfullscreen allowfullscreen></webview>
 	</div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
