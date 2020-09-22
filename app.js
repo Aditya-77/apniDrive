@@ -121,7 +121,8 @@ function list(path){
 	`;
 	$('#content').html(content);
 	
-    var password = localStorage.getItem('password'+path);
+    //var password = localStorage.getItem('password'+path);
+    bar password = sessionStorage.getItem('password'+path);
     $('#list').html(`<div class="mdui-progress"><div class="mdui-progress-indeterminate"></div></div>`);
     $('#readme_md').hide().html('');
     $('#head_md').hide().html('');
@@ -129,7 +130,8 @@ function list(path){
         var obj = jQuery.parseJSON(data);
         if(typeof obj != 'null' && obj.hasOwnProperty('error') && obj.error.code == '401'){
             var pass = prompt("Password:","");
-            localStorage.setItem('password'+path, pass);
+            //localStorage.setItem('password'+path, pass);
+            sessionStorage.setItem('password'+path, pass);
             if(pass != null && pass != ""){
                 list(path);
             }else{
