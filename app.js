@@ -122,7 +122,7 @@ function list(path){
 	$('#content').html(content);
 	
     //var password = localStorage.getItem('password'+path);
-    bar password = sessionStorage.getItem('password'+path);
+    var password = sessionStorage.getItem('password'+path);
     $('#list').html(`<div class="mdui-progress"><div class="mdui-progress-indeterminate"></div></div>`);
     $('#readme_md').hide().html('');
     $('#head_md').hide().html('');
