@@ -118,7 +118,7 @@ function list(path){
 	<i class="mdui-icon material-icons icon-sort" data-sort="name" data-order="more">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-3 mdui-text-right">
-        Change the time
+        Modification time
 	<i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-2 mdui-text-right">
@@ -132,6 +132,8 @@ function list(path){
 	  <ul id="list" class="mdui-list"> 
 	  </ul> 
 	 </div>
+<div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"></span> items</div>
+		 <div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0;"></div>
 	 <div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0;"></div>
 	`;
 	$('#content').html(content);
