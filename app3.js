@@ -91,7 +91,7 @@ function nav(path) {
     <a href="https://tbot.adityashri.tk" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'Downloader'}">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width: 24px;height:24px;">
 	  <style type="text/css">
-	.st0{fill:#333333;}
+	.st0{fill:#000000;}
 </style>
         <g id="XMLID_2_">
 	<path id="XMLID_8_" class="st0" d="M62.8,67c0-0.6-0.2-1.1-0.6-1.5c-0.4-0.4-0.9-0.6-1.5-0.6s-1.1,0.2-1.5,0.6
