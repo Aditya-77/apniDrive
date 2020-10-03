@@ -88,7 +88,7 @@ function nav(path) {
 		}
 	}
 	html += `<div class="mdui-toolbar-spacer"></div>
-    <a href="https://tbot.adityashri.tk" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'Downloader'}">
+    <a href="https://tddown.herokuapp.com" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'Downloader'}">
  <svg version="1.1" id="Capa_1" viewBox="0 0 384.97 384.97" style="enable-background:new 0 0 384.97 384.97;display: block;margin:10px;" xmlns="http://www.w3.org/2000/svg" height="25px" width="25px">
     <g>
       <path d="M192.485,0C86.185,0,0,86.185,0,192.485C0,298.797,86.185,384.97,192.485,384.97 c106.312,0,192.485-86.173,192.485-192.485C384.97,86.185,298.797,0,192.485,0z M192.485,361.282 c-92.874,0-168.424-75.923-168.424-168.797S99.611,24.061,192.485,24.061s168.424,75.55,168.424,168.424 S285.359,361.282,192.485,361.282z" style="fill: rgb(255, 255, 255); --darkreader-inline-fill:#e8e6e3;" data-darkreader-inline-fill=""></path>
