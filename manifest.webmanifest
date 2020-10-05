@@ -16,7 +16,7 @@
   ],
   "start_url": "https://player.adityashri.tk",
   "background_color": "#000000",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "theme_color": "#E50914"
 }
