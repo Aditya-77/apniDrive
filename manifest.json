@@ -1,0 +1,22 @@
+{
+  "short_name": "Drive Player",
+  "name": "Drive Player",
+  "description": "Aditya's server",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/yqNKLKR/small.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i.ibb.co/GCnDzJR/big.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#E50914",
+}
