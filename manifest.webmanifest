@@ -4,12 +4,12 @@
   "description": "Aditya's server",
   "icons": [
     {
-      "src": "https://i.ibb.co/yqNKLKR/small.png",
+      "src": "https://i.ibb.co/pnNJCNc/icon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://i.ibb.co/GCnDzJR/big.png",
+      "src": "https://i.ibb.co/2WT8TfH/splash.png",
       "type": "image/png",
       "sizes": "512x512"
     }
