@@ -192,11 +192,11 @@ function list_files(path,files){
                 });
             }
             var ext = p.split('.').pop();
-            if("|txt|mp4|webm|avi|m4a|mp3|wav|ogg|mpg|mpeg|mkv|mov|srt|".indexOf(`|${ext}|`) >= 0){
+            if("|txt|mp4|webm|avi|m4a|mp3|wav|ogg|mpg|mpeg|mkv|mov|srt|m4v|".indexOf(`|${ext}|`) >= 0){
 	            p += "?a=view";
 	            c += " view";
             }
-			if("|mp4|webm|avi|mpg|mpeg|mkv|mov|".indexOf(`|${ext}|`) >=0){
+			if("|mp4|webm|avi|mpg|mpeg|mkv|mov|m4v|".indexOf(`|${ext}|`) >=0){
 				id[item.name]=item.id;
 			}
             html += `<li class="mdui-list-item file mdui-ripple" target="_blank"><a gd-type="${item.mimeType}" href="${p}" class="${c}">
