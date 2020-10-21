@@ -1,0 +1,22 @@
+{
+  "short_name": "PPlayer",
+  "name": "",
+  "description": "Aditya's server",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/CKwg190/short.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i.ibb.co/r06dJF2/Long.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://pplayer.adityashri.tk",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#E50914"
+}
