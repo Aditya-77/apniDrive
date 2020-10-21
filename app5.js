@@ -165,7 +165,7 @@ function list_files(path,files){
 
         item['modifiedTime'] = utc2jakarta(item['modifiedTime']);
         item['size'] = formatFileSize(item['size']);
-        if(item['mimeType'] == 'application/vnd.google-apps.folder'){
+        if(item['mimeType'] == 'application/vnd.google-apps.folder' || item['mimeType'] == 'application/vnd.google-apps.shortcut'){
 			if(item.name == "Storage"){
 					continue;
 			}
