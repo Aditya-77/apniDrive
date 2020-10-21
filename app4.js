@@ -166,7 +166,7 @@ function list_files(path,files){
         item['modifiedTime'] = utc2jakarta(item['modifiedTime']);
         item['size'] = formatFileSize(item['size']);
         if(item['mimeType'] == 'application/vnd.google-apps.folder'){
-			if(item.name == "Storage"){
+			if(item.name == "Storage" || item.name == "Stream"{
 					continue;
 			}
             html +=`<li class="mdui-list-item mdui-ripple"><a href="${p}" class="folder">
