@@ -301,6 +301,7 @@ function file_video(path,fname){
      		<iframe class="player_iframe" src="https://drive.google.com/file/d/${adi}/preview" webkitallowfullscreen mozallowfullscreen allowfullscreen></webview>
 	</div>
 	</br>
+</div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
 	$('#content').html(content);
